@@ -2,7 +2,7 @@
 
 ## Why this project exists
 
-PModern applied AI engineering requires production-grade workflows, orchestration, retrieval, model-behaviour evaluation, APIs, reliability and auditable operation. This project turns those concerns into executable interfaces rather than a slide-only concept.
+Modern applied AI engineering requires production-grade workflows, orchestration, retrieval, model-behaviour evaluation, APIs, reliability and auditable operation. This project turns those concerns into executable interfaces rather than a slide-only concept.
 
 ## Boundaries
 
