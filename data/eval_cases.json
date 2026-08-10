@@ -1,0 +1,416 @@
+[
+  {
+    "case": {
+      "case_id": "EVAL-001",
+      "merchant": "Example Merchant",
+      "amount": 27.3,
+      "currency": "EUR",
+      "customer_claim": "Goods not received",
+      "merchant_evidence": "Order confirmation only",
+      "transaction_signals": {}
+    },
+    "expected_action": "request_evidence",
+    "expected_source": "goods_not_received"
+  },
+  {
+    "case": {
+      "case_id": "EVAL-002",
+      "merchant": "Example Merchant",
+      "amount": 34.6,
+      "currency": "EUR",
+      "customer_claim": "Goods not received",
+      "merchant_evidence": "Order confirmation only",
+      "transaction_signals": {}
+    },
+    "expected_action": "request_evidence",
+    "expected_source": "goods_not_received"
+  },
+  {
+    "case": {
+      "case_id": "EVAL-003",
+      "merchant": "Example Merchant",
+      "amount": 41.9,
+      "currency": "EUR",
+      "customer_claim": "Goods not received",
+      "merchant_evidence": "Order confirmation only",
+      "transaction_signals": {}
+    },
+    "expected_action": "request_evidence",
+    "expected_source": "goods_not_received"
+  },
+  {
+    "case": {
+      "case_id": "EVAL-004",
+      "merchant": "Example Merchant",
+      "amount": 49.2,
+      "currency": "EUR",
+      "customer_claim": "Goods not received",
+      "merchant_evidence": "Order confirmation only",
+      "transaction_signals": {}
+    },
+    "expected_action": "request_evidence",
+    "expected_source": "goods_not_received"
+  },
+  {
+    "case": {
+      "case_id": "EVAL-005",
+      "merchant": "Example Merchant",
+      "amount": 56.5,
+      "currency": "EUR",
+      "customer_claim": "Goods not received",
+      "merchant_evidence": "Order confirmation only",
+      "transaction_signals": {}
+    },
+    "expected_action": "request_evidence",
+    "expected_source": "goods_not_received"
+  },
+  {
+    "case": {
+      "case_id": "EVAL-006",
+      "merchant": "Example Merchant",
+      "amount": 63.8,
+      "currency": "EUR",
+      "customer_claim": "Goods not received",
+      "merchant_evidence": "Carrier tracking and signed proof of delivery",
+      "transaction_signals": {}
+    },
+    "expected_action": "represent",
+    "expected_source": "goods_not_received"
+  },
+  {
+    "case": {
+      "case_id": "EVAL-007",
+      "merchant": "Example Merchant",
+      "amount": 71.1,
+      "currency": "EUR",
+      "customer_claim": "Goods not received",
+      "merchant_evidence": "Carrier tracking and signed proof of delivery",
+      "transaction_signals": {}
+    },
+    "expected_action": "represent",
+    "expected_source": "goods_not_received"
+  },
+  {
+    "case": {
+      "case_id": "EVAL-008",
+      "merchant": "Example Merchant",
+      "amount": 78.4,
+      "currency": "EUR",
+      "customer_claim": "Goods not received",
+      "merchant_evidence": "Carrier tracking and signed proof of delivery",
+      "transaction_signals": {}
+    },
+    "expected_action": "represent",
+    "expected_source": "goods_not_received"
+  },
+  {
+    "case": {
+      "case_id": "EVAL-009",
+      "merchant": "Example Merchant",
+      "amount": 85.7,
+      "currency": "EUR",
+      "customer_claim": "Goods not received",
+      "merchant_evidence": "Carrier tracking and signed proof of delivery",
+      "transaction_signals": {}
+    },
+    "expected_action": "represent",
+    "expected_source": "goods_not_received"
+  },
+  {
+    "case": {
+      "case_id": "EVAL-010",
+      "merchant": "Example Merchant",
+      "amount": 93.0,
+      "currency": "EUR",
+      "customer_claim": "Goods not received",
+      "merchant_evidence": "Carrier tracking and signed proof of delivery",
+      "transaction_signals": {}
+    },
+    "expected_action": "represent",
+    "expected_source": "goods_not_received"
+  },
+  {
+    "case": {
+      "case_id": "EVAL-011",
+      "merchant": "Example Merchant",
+      "amount": 100.3,
+      "currency": "EUR",
+      "customer_claim": "I was charged twice",
+      "merchant_evidence": "",
+      "transaction_signals": {
+        "duplicate_match": true
+      }
+    },
+    "expected_action": "accept_or_refund",
+    "expected_source": "duplicate_processing"
+  },
+  {
+    "case": {
+      "case_id": "EVAL-012",
+      "merchant": "Example Merchant",
+      "amount": 107.6,
+      "currency": "EUR",
+      "customer_claim": "I was charged twice",
+      "merchant_evidence": "",
+      "transaction_signals": {
+        "duplicate_match": true
+      }
+    },
+    "expected_action": "accept_or_refund",
+    "expected_source": "duplicate_processing"
+  },
+  {
+    "case": {
+      "case_id": "EVAL-013",
+      "merchant": "Example Merchant",
+      "amount": 114.9,
+      "currency": "EUR",
+      "customer_claim": "I was charged twice",
+      "merchant_evidence": "",
+      "transaction_signals": {
+        "duplicate_match": true
+      }
+    },
+    "expected_action": "accept_or_refund",
+    "expected_source": "duplicate_processing"
+  },
+  {
+    "case": {
+      "case_id": "EVAL-014",
+      "merchant": "Example Merchant",
+      "amount": 122.2,
+      "currency": "EUR",
+      "customer_claim": "I was charged twice",
+      "merchant_evidence": "",
+      "transaction_signals": {
+        "duplicate_match": true
+      }
+    },
+    "expected_action": "accept_or_refund",
+    "expected_source": "duplicate_processing"
+  },
+  {
+    "case": {
+      "case_id": "EVAL-015",
+      "merchant": "Example Merchant",
+      "amount": 129.5,
+      "currency": "EUR",
+      "customer_claim": "I was charged twice",
+      "merchant_evidence": "",
+      "transaction_signals": {
+        "duplicate_match": true
+      }
+    },
+    "expected_action": "accept_or_refund",
+    "expected_source": "duplicate_processing"
+  },
+  {
+    "case": {
+      "case_id": "EVAL-016",
+      "merchant": "Example Merchant",
+      "amount": 136.8,
+      "currency": "EUR",
+      "customer_claim": "I was charged twice",
+      "merchant_evidence": "Two order references exist",
+      "transaction_signals": {
+        "duplicate_match": false
+      }
+    },
+    "expected_action": "escalate",
+    "expected_source": "duplicate_processing"
+  },
+  {
+    "case": {
+      "case_id": "EVAL-017",
+      "merchant": "Example Merchant",
+      "amount": 144.1,
+      "currency": "EUR",
+      "customer_claim": "I was charged twice",
+      "merchant_evidence": "Two order references exist",
+      "transaction_signals": {
+        "duplicate_match": false
+      }
+    },
+    "expected_action": "escalate",
+    "expected_source": "duplicate_processing"
+  },
+  {
+    "case": {
+      "case_id": "EVAL-018",
+      "merchant": "Example Merchant",
+      "amount": 151.4,
+      "currency": "EUR",
+      "customer_claim": "I was charged twice",
+      "merchant_evidence": "Two order references exist",
+      "transaction_signals": {
+        "duplicate_match": false
+      }
+    },
+    "expected_action": "escalate",
+    "expected_source": "duplicate_processing"
+  },
+  {
+    "case": {
+      "case_id": "EVAL-019",
+      "merchant": "Example Merchant",
+      "amount": 158.7,
+      "currency": "EUR",
+      "customer_claim": "This card payment is not mine",
+      "merchant_evidence": "Authentication log shows successful 3DS",
+      "transaction_signals": {
+        "3ds": true
+      }
+    },
+    "expected_action": "represent",
+    "expected_source": "unauthorised_transaction"
+  },
+  {
+    "case": {
+      "case_id": "EVAL-020",
+      "merchant": "Example Merchant",
+      "amount": 166.0,
+      "currency": "EUR",
+      "customer_claim": "This card payment is not mine",
+      "merchant_evidence": "Authentication log shows successful 3DS",
+      "transaction_signals": {
+        "3ds": true
+      }
+    },
+    "expected_action": "represent",
+    "expected_source": "unauthorised_transaction"
+  },
+  {
+    "case": {
+      "case_id": "EVAL-021",
+      "merchant": "Example Merchant",
+      "amount": 173.3,
+      "currency": "EUR",
+      "customer_claim": "This card payment is not mine",
+      "merchant_evidence": "Authentication log shows successful 3DS",
+      "transaction_signals": {
+        "3ds": true
+      }
+    },
+    "expected_action": "represent",
+    "expected_source": "unauthorised_transaction"
+  },
+  {
+    "case": {
+      "case_id": "EVAL-022",
+      "merchant": "Example Merchant",
+      "amount": 180.6,
+      "currency": "EUR",
+      "customer_claim": "This card payment is not mine",
+      "merchant_evidence": "Authentication log shows successful 3DS",
+      "transaction_signals": {
+        "3ds": true
+      }
+    },
+    "expected_action": "represent",
+    "expected_source": "unauthorised_transaction"
+  },
+  {
+    "case": {
+      "case_id": "EVAL-023",
+      "merchant": "Example Merchant",
+      "amount": 187.9,
+      "currency": "EUR",
+      "customer_claim": "Unauthorized payment",
+      "merchant_evidence": "No reliable authentication data",
+      "transaction_signals": {}
+    },
+    "expected_action": "escalate",
+    "expected_source": "unauthorised_transaction"
+  },
+  {
+    "case": {
+      "case_id": "EVAL-024",
+      "merchant": "Example Merchant",
+      "amount": 195.2,
+      "currency": "EUR",
+      "customer_claim": "Unauthorized payment",
+      "merchant_evidence": "No reliable authentication data",
+      "transaction_signals": {}
+    },
+    "expected_action": "escalate",
+    "expected_source": "unauthorised_transaction"
+  },
+  {
+    "case": {
+      "case_id": "EVAL-025",
+      "merchant": "Example Merchant",
+      "amount": 202.5,
+      "currency": "EUR",
+      "customer_claim": "Unauthorized payment",
+      "merchant_evidence": "No reliable authentication data",
+      "transaction_signals": {}
+    },
+    "expected_action": "escalate",
+    "expected_source": "unauthorised_transaction"
+  },
+  {
+    "case": {
+      "case_id": "EVAL-026",
+      "merchant": "Example Merchant",
+      "amount": 209.8,
+      "currency": "EUR",
+      "customer_claim": "I cancelled and still have no refund",
+      "merchant_evidence": "Refund confirmation included",
+      "transaction_signals": {}
+    },
+    "expected_action": "represent",
+    "expected_source": "refund_not_received"
+  },
+  {
+    "case": {
+      "case_id": "EVAL-027",
+      "merchant": "Example Merchant",
+      "amount": 217.1,
+      "currency": "EUR",
+      "customer_claim": "I cancelled and still have no refund",
+      "merchant_evidence": "Refund confirmation included",
+      "transaction_signals": {}
+    },
+    "expected_action": "represent",
+    "expected_source": "refund_not_received"
+  },
+  {
+    "case": {
+      "case_id": "EVAL-028",
+      "merchant": "Example Merchant",
+      "amount": 224.4,
+      "currency": "EUR",
+      "customer_claim": "I cancelled and still have no refund",
+      "merchant_evidence": "Refund confirmation included",
+      "transaction_signals": {}
+    },
+    "expected_action": "represent",
+    "expected_source": "refund_not_received"
+  },
+  {
+    "case": {
+      "case_id": "EVAL-029",
+      "merchant": "Example Merchant",
+      "amount": 231.7,
+      "currency": "EUR",
+      "customer_claim": "I cancelled and still have no refund",
+      "merchant_evidence": "No refund confirmation",
+      "transaction_signals": {}
+    },
+    "expected_action": "accept_or_refund",
+    "expected_source": "refund_not_received"
+  },
+  {
+    "case": {
+      "case_id": "EVAL-030",
+      "merchant": "Example Merchant",
+      "amount": 239.0,
+      "currency": "EUR",
+      "customer_claim": "I cancelled and still have no refund",
+      "merchant_evidence": "No refund confirmation",
+      "transaction_signals": {}
+    },
+    "expected_action": "accept_or_refund",
+    "expected_source": "refund_not_received"
+  }
+]

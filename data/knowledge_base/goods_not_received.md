@@ -1,0 +1,2 @@
+# Goods Not Received - Internal Demo Policy
+For a goods-not-received claim, the workflow should look for evidence that links the order to delivery: carrier tracking, delivery status, signed proof of delivery, or another approved delivery record. If delivery evidence is missing, request evidence rather than making an unsupported representation. If credible delivery evidence is present, a representation recommendation may be prepared for human review. Ambiguous or conflicting delivery data must be escalated.

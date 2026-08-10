@@ -1,0 +1,2 @@
+# Refund or Cancellation - Internal Demo Policy
+For cancellation or refund claims, verify whether a refund was actually issued and whether the evidence identifies the original transaction. If reliable refund confirmation is present, prepare a representation recommendation for human review. If no refund was issued despite a valid cancellation/refund obligation in the demo case, recommend accept-or-refund. Ambiguity is escalated.

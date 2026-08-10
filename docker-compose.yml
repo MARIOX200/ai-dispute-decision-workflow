@@ -1,0 +1,10 @@
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - AI_PROVIDER=local
+      - DATABASE_PATH=/app/artifacts/workflow.db
+    volumes:
+      - ./artifacts:/app/artifacts

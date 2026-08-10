@@ -1,0 +1,2 @@
+# AI Workflow Governance - Internal Demo Standard
+AI recommendations are decision support, not final autonomous decisions. The workflow must log correlation ID, retrieved sources, recommendation, confidence, human review and overrides. Low-confidence outputs, missing evidence, conflicts and unsupported conclusions require Human-in-the-Loop review. Production deployments should provide retries, fallbacks, observability, idempotency, secrets management, access control and structured evaluation.

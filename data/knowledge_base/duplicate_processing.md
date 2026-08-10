@@ -1,0 +1,2 @@
+# Duplicate Processing - Internal Demo Policy
+When a customer reports two charges, a duplicate charge, or says they were charged twice, compare transaction identifiers, timestamps, amount, currency, merchant and authorization signals. If the internal transaction service confirms a duplicate match, recommend accept-or-refund. If two legitimate separate purchases remain plausible or data conflicts, escalate for review.
